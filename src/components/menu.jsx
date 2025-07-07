@@ -6,8 +6,7 @@ function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: 'Inicio', path: '/' },
-    { label: 'Servicios', path: '/servicios' },
+    { label: 'Productos', path: '/products' },
     { label: 'Contacto', path: '/contacto' },
   ];
 
