@@ -4,6 +4,7 @@ import Inicio from './components/inicio';
 import Menu from './components/menu';
 import Servicios from './components/services';
 import Contacto from './components/contacts';
+import './styles/global.css';
 
 function App() {
   return (

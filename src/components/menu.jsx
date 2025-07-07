@@ -14,7 +14,9 @@ function Menu() {
   return (
     <nav className="menu-nav">
       <div className="menu-container">
-        <div className="menu-logo">MiAplicación</div>
+        <Link to="/" className="menu-logo" onClick={() => setIsOpen(false)}>
+          Dulce Tentación de Berny
+        </Link>
         <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </button>
