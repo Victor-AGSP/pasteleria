@@ -4,6 +4,8 @@ import Carrusel from './components/carrusel';
 import Menu from './components/menu';
 import Productos from './components/products';
 import Contacto from './components/contacts';
+import Destacados from './components/destacados';
+import Galeria from './components/galeria';
 import './styles/global.css';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Route path="/products" element={<Productos />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
+      <Destacados />
+      <Galeria />
     </Router>
   );
 }

@@ -1,0 +1,75 @@
+.destacados {
+  padding: 60px 20px;
+  background: #fffafc;
+  text-align: center;
+}
+
+.destacados-titulo {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  color: #d6336c;
+}
+
+.destacados-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card-nombre {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  color: #d6336c;
+}
+
+.card-descripcion {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card-btn {
+  background: #d6336c;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.card-btn:hover {
+  background: #e05286;
+  transform: scale(1.05);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .destacados-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

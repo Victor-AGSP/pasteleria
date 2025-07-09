@@ -1,0 +1,31 @@
+.galeria {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.galeria-titulo {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  color: #d6336c;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.galeria-item img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
