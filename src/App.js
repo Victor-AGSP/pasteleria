@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Inicio from './components/inicio';
+import Carrusel from './components/carrusel';
 import Menu from './components/menu';
 import Productos from './components/products';
 import Contacto from './components/contacts';
@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Menu />
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Carrusel />} />
         <Route path="/products" element={<Productos />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
