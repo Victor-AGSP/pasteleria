@@ -1,0 +1,52 @@
+.testimonios {
+  background: #fffafc;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonios-titulo {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  color: #d6336c;
+}
+
+.testimonios-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonio-card {
+  background: #fff;
+  border-radius: 15px;
+  max-width: 300px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.testimonio-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonio-foto {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonio-mensaje {
+  font-style: italic;
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.testimonio-nombre {
+  font-weight: bold;
+  color: #d6336c;
+}

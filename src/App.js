@@ -6,6 +6,8 @@ import Productos from './components/products';
 import Contacto from './components/contacts';
 import Destacados from './components/destacados';
 import Galeria from './components/galeria';
+import Testimonios from './components/testimonios';
+import Footer from './components/footer';
 import './styles/global.css';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       </Routes>
       <Destacados />
       <Galeria />
+      <Testimonios />
+      <Footer />
     </Router>
   );
 }
