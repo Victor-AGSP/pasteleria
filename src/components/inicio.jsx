@@ -3,6 +3,7 @@ import Carrusel from './carrusel';      // Ajusta la ruta según donde estén tu
 import Destacados from './destacados';
 import Galeria from './galeria';
 import Testimonios from './testimonios';
+import Nosotros from './nosotros';
 
 function Inicio() {
   return (
@@ -11,6 +12,7 @@ function Inicio() {
       <Destacados />
       <Galeria />
       <Testimonios />
+      <Nosotros />
     </>
   );
 }
