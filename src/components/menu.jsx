@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/menu.css';
+import logo from '../assets/berny.jpeg';
 
 function Menu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,8 @@ function Menu() {
     <nav className="menu-nav">
       <div className="menu-container">
         <Link to="/" className="menu-logo" onClick={() => setIsOpen(false)}>
-          Dulce Tentación de Berny
+          <img src={logo} alt="Dulce Tentación de Berny" />
+          <span>Dulce Tentación de Berny</span>
         </Link>
         <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
           ☰

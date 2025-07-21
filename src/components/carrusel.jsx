@@ -3,17 +3,17 @@ import '../styles/carrusel.css';
 
 const slides = [
   {
-    src: '/img/carrusel1.jpg',
+    src: '/img/productos/img2.webp',
     titulo: 'Pasteles Personalizados',
     subtitulo: 'Diseña tu pastel ideal para cada ocasión',
   },
   {
-    src: '/img/carrusel2.jpg',
+    src: '/img/productos/img4.webp',
     titulo: 'Sabores Irresistibles',
     subtitulo: 'Frescura y calidad en cada bocado',
   },
   {
-    src: '/img/carrusel3.jpg',
+    src: '/img/productos/img1.png',
     titulo: 'Detalles Dulces',
     subtitulo: 'Endulza cada momento especial',
   },
