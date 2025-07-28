@@ -146,3 +146,21 @@
     transform: none;
   }
 }
+
+@media (max-width: 440px) {
+  span {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 420px) {
+  span {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  span {
+    font-size: 1.5rem;
+  }
+}
