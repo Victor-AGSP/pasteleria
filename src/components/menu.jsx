@@ -9,6 +9,7 @@ function Menu() {
   const navItems = [
     { label: 'Productos', path: '/products' },
     { label: 'Contacto', path: '/contacto' },
+    { label: 'Oferta', path: '/oferta' },
   ];
 
   return (
