@@ -75,6 +75,11 @@ export default function Oferta() {
           <li>Niditos de merengue</li>
         </ul>
 
+        <h3>Adicional</h3>
+        <ul>
+          <li>Incluye cámara 360</li>
+        </ul>
+
         <p className="oferta-zona">
           📍 Disponible en Victoria y alrededores (60 km). Más allá, consultar valor.
         </p>
