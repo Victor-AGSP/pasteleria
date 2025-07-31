@@ -39,16 +39,42 @@ export default function Oferta() {
 
       <div className="oferta-info">
         <h2>¿Qué incluye?</h2>
+
+        <h3>Cóctel</h3>
+        <p>
+          Incluye jugos (variedad de sabores) y bebidas ilimitadas. 
+          El cóctel considera <strong>15 bocados por persona</strong>:
+        </p>
         <ul>
-          <li>Cóctel de bienvenida</li>
-          <li>Cena completa</li>
-          <li>Decoración temática</li>
-          <li>Mantelería y loza premium</li>
-          <li>Garzones profesionales</li>
-          <li>Cámara 360 para recuerdos únicos</li>
-          <li>Jugo y bebida ilimitada</li>
-          <li>Toda la jornada incluida</li>
+          <li>4 empanadas</li>
+          <li>2 brochetas</li>
+          <li>2 crostinis</li>
+          <li>2 volovanes</li>
+          <li>1 brocheta de queso</li>
+          <li>1 brocheta de fruta</li>
+          <li>1 pieza de pastelería</li>
+          <li>2 ceviches</li>
         </ul>
+
+        <h3>Cena</h3>
+        <p>
+          Incluye jugos (variedad de sabores) y bebidas ilimitadas.
+          La cena no incluye entrada. El plato principal consiste en:
+        </p>
+        <ul>
+          <li>Medallón de carne mechada con salsa española y champiñones</li>
+          <li>Guarnición a elección: papas rústicas a las finas hierbas, puré rústico o papas duquesas artesanales</li>
+          <li>Panaché de vegetales</li>
+        </ul>
+
+        <h3>Postres</h3>
+        <ul>
+          <li>Tiramisú</li>
+          <li>Cheesecake de maracuyá</li>
+          <li>Cheesecake de frutos del bosque</li>
+          <li>Niditos de merengue</li>
+        </ul>
+
         <p className="oferta-zona">
           📍 Disponible en Victoria y alrededores (60 km). Más allá, consultar valor.
         </p>
@@ -59,6 +85,7 @@ export default function Oferta() {
 
         <button className="oferta-boton">Reserva Ahora</button>
       </div>
+
 
       {selectedImage && (
         <div className="lightbox" onClick={closeImage}>
