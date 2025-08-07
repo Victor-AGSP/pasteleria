@@ -62,7 +62,10 @@
 }
 
 .oferta-info {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
 }
 
 .oferta-info h2 {
@@ -91,6 +94,13 @@
   left: 0;
   color: #db2777;
   font-weight: bold;
+}
+
+.oferta-info section {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 .oferta-zona {
@@ -167,3 +177,8 @@
   transform: scale(1.2);
 }
 
+@media (max-width: 768px) {
+  .oferta-info {
+    grid-template-columns: 1fr;
+  }
+}
